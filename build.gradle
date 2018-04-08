@@ -1,0 +1,24 @@
+buildscript {
+    repositories { jcenter() }
+}
+
+apply plugin: 'idea'
+apply plugin: 'java'
+
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/com.github.samtools/htsjdk
+    compile group: 'com.github.samtools', name: 'htsjdk', version: '2.14.3'
+
+    compile group: 'commons-io', name: "commons-io", version: "2.4"
+    compile group: 'org.apache.commons', name: "commons-lang3", version: "3.0"
+    compile group: 'org.apache.commons', name: "commons-collections4", version: "4.0"
+
+    // https://mvnrepository.com/artifact/junit/junit
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+}
