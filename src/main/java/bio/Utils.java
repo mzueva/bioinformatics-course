@@ -37,4 +37,9 @@ public class Utils {
                 .append(SamReaderExamples.TAB)
                 .append(record.getBaseQualityString()).toString();
     }
+
+    public static String byteToString(byte readBase) {
+        byte[] array = new byte[] {readBase};
+        return new String(array);
+    }
 }
