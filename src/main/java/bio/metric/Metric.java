@@ -1,4 +1,4 @@
-package bio;
+package bio.metric;
 
 import java.util.HashMap;
 import java.util.Map;

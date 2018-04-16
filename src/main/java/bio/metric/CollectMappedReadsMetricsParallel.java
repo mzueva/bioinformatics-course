@@ -1,5 +1,7 @@
-package bio;
+package bio.metric;
 
+import bio.Utils;
+import bio.metric.Metric;
 import htsjdk.samtools.SAMRecord;
 import htsjdk.samtools.SAMRecordIterator;
 import htsjdk.samtools.SamReader;

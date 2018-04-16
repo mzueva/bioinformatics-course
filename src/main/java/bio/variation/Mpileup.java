@@ -1,5 +1,6 @@
-package bio;
+package bio.variation;
 
+import bio.Utils;
 import htsjdk.samtools.SamReader;
 import htsjdk.samtools.SamReaderFactory;
 import htsjdk.samtools.reference.ReferenceSequence;
